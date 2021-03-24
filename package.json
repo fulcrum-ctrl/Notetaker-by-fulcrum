@@ -1,14 +1,27 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Notetaker made on a caffeine high",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "fulcrum-ctrl",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
-  }
+    "express": "^4.16.4",
+    "nodemon": "^2.0.6",
+    "path": "^0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fulcrum-ctrl/Notetaker-by-fulcrum.git"
+  },
+  "keywords": [
+    "notetaker"
+  ],
+  "bugs": {
+    "url": "https://github.com/fulcrum-ctrl/Notetaker-by-fulcrum/issues"
+  },
+  "homepage": "https://github.com/fulcrum-ctrl/Notetaker-by-fulcrum#readme"
 }
