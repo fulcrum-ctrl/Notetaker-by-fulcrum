@@ -64,15 +64,28 @@ const renderActiveNote = () => {
   }
 };
 
+// const handleNoteSave = () => {
+//   const newNote = {
+//     title: noteTitle.value,
+//     text: noteText.value,
+//   };
+//   saveNote(newNote).then(() => {
+//     getAndRenderNotes();
+//     renderActiveNote();
+//   });
+// };
 const handleNoteSave = () => {
   const newNote = {
     title: noteTitle.value,
     text: noteText.value,
   };
   saveNote(newNote).then(() => {
-    getAndRenderNotes();
-    renderActiveNote();
+
   });
+  alert("New Note Created!");
+  //CARLOOOOOO
+  getAndRenderNotes();
+  renderActiveNote();
 };
 
 // Delete the clicked note
